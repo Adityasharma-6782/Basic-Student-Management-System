@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎓 Student Management System</h1>
+
+    <div class="card">
+
+        <h2>Add Student</h2>
+
+        <input type="text" id="name" placeholder="Name">
+
+        <input type="number" id="age" placeholder="Age">
+
+        <input type="text" id="roll_no" placeholder="Roll Number">
+
+        <input type="email" id="email" placeholder="Email">
+
+        <input type="number" id="mobile" placeholder="Mobile Number">
+
+        <button onclick="addStudent()">Add Student</button>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>Search Student</h2>
+
+        <input type="text" id="searchRoll" placeholder="Enter Roll Number">
+
+        <button onclick="searchStudent()">Search</button>
+
+    </div>
+
+    <div id="searchResult"></div>
+
+
+    <div class="card">
+
+        <h2>Students List</h2>
+
+        <button onclick="loadStudents()">Refresh</button>
+
+        <table>
+
+            <thead>
+
+            <tr>
+
+                <th>Roll</th>
+
+                <th>Name</th>
+
+                <th>Age</th>
+
+                <th>Email</th>
+
+                <th>Mobile</th>
+
+                <th>Action</th>
+
+            </tr>
+
+            </thead>
+
+            <tbody id="studentTable"></tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
