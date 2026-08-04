@@ -29,12 +29,20 @@ A simple REST API built with **FastAPI** that performs CRUD (Create, Read, Updat
 ## 📂 Project Structure
 
 ```
-student-management-api/
+Student_management/
 │
-├── main.py              # FastAPI application
-├── students.json        # Student database
+├── static/
+│   ├── style.css
+│   └── script.js
+│
+├── templates/
+│   └── index.html
+│
+├── students.json
+├── main.py
 ├── requirements.txt
 ├── README.md
+└── .gitignore
 ```
 
 ---
@@ -261,6 +269,20 @@ Response
 
 ---
 
+# 🖥️ Frontend Features
+
+- Student Registration Form
+- Student Table
+- Search Student
+- Edit Student
+- Delete Student
+- Responsive Layout
+- Clean User Interface
+
+---
+
+---
+
 # 🧪 Testing
 
 You can test the API using
@@ -279,6 +301,7 @@ fastapi
 uvicorn
 pydantic
 email-validator
+jinja2
 ```
 
 ---
@@ -307,6 +330,19 @@ email-validator
 - Deployment on Render or Railway
 
 ---
+
+## 🎯 Learning Objectives
+
+This project demonstrates:
+
+- Building REST APIs with FastAPI
+- Performing CRUD operations
+- Using Pydantic models
+- Request and response validation
+- Working with JSON as a data store
+- Connecting a JavaScript frontend to a FastAPI backend
+- Serving static files and HTML templates
+- Creating beginner-friendly full-stack applications
 
 # 👨‍💻 Author
 
