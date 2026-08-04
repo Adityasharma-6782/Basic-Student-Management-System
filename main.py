@@ -1,11 +1,21 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.encoders import jsonable_encoder
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
 from pydantic import BaseModel, EmailStr
 from typing import Optional
 import json
 
+from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # For development only
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class student(BaseModel):
     name: str
@@ -31,9 +41,17 @@ def save_data(data):
         json.dump(data, f)
 
 # Home page route
-@app.get('/')
-def home_page():
-    return {'message': 'this is home page'}
+# @app.get('/')
+# def home_page():
+#     return {'message': 'this is home page'}
+
+from fastapi.staticfiles import StaticFiles
+
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+@app.get("/", response_class=FileResponse)
+def home():
+    return FileResponse("templates/index.html")
 
 # Create student data route
 @app.post('/create')
