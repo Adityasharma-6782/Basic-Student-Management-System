@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Aarav Sharma",
+    "age": 20,
+    "roll_no": "2026CSE1001",
+    "email": "aarav.sharma@example.com",
+    "mobile_no": 9876543210
+  },
+  {
+    "name": "Diya Patel",
+    "age": 21,
+    "roll_no": "2026ECE2045",
+    "email": "diya.patel@example.com",
+    "mobile_no": 8765432109
+  },
+  {
+    "name": "Rohan Das",
+    "age": 19,
+    "roll_no": "2026ME3012",
+    "email": "rohan.das@example.com",
+    "mobile_no": 7654321098
+  },
+  {
+    "name": "Ananya Iyer",
+    "age": 22,
+    "roll_no": "2026IT4056",
+    "email": "ananya.iyer@example.com",
+    "mobile_no": 6543210987
+  },
+  {
+    "name": "Kabir Mehta",
+    "age": 20,
+    "roll_no": "2026CE5089",
+    "email": "kabir.mehta@example.com",
+    "mobile_no": 9123456780
+  },
+  {
+    "name": "Sneha Reddy",
+    "age": 21,
+    "roll_no": "2026EE1023",
+    "email": "sneha.reddy@example.com",
+    "mobile_no": 9812345678
+  },
+  {
+    "name": "Arjun Verma",
+    "age": 20,
+    "roll_no": "2026CS2091",
+    "email": "arjun.verma@example.com",
+    "mobile_no": 8823456789
+  },
+  {
+    "name": "Meera Nair",
+    "age": 19,
+    "roll_no": "2026CH3044",
+    "email": "meera.nair@example.com",
+    "mobile_no": 7734567890
+  },
+  {
+    "name": "Aditya Rao",
+    "age": 22,
+    "roll_no": "2026BT4012",
+    "email": "aditya.rao@example.com",
+    "mobile_no": 6645678901
+  },
+  {
+    "name": "Isha Gupta",
+    "age": 20,
+    "roll_no": "2026EC5067",
+    "email": "isha.gupta@example.com",
+    "mobile_no": 9956789012
+  },
+  {
+    "name": "Devansh Joshi",
+    "age": 21,
+    "roll_no": "2026ME1077",
+    "email": "devansh.joshi@example.com",
+    "mobile_no": 8867890123
+  },
+  {
+    "name": "Riya Sen",
+    "age": 20,
+    "roll_no": "2026CS3021",
+    "email": "riya.sen@example.com",
+    "mobile_no": 7778901234
+  },
+  {
+    "name": "Vivaan Kapoor",
+    "age": 19,
+    "roll_no": "2026CE4099",
+    "email": "vivaan.kapoor@example.com",
+    "mobile_no": 6689012345
+  },
+  {
+    "name": "Anika Mishra",
+    "age": 21,
+    "roll_no": "2026IT5023",
+    "email": "anika.mishra@example.com",
+    "mobile_no": 9590123456
+  },
+  {
+    "name": "Reyansh Singh",
+    "age": 22,
+    "roll_no": "2026EE2011",
+    "email": "reyansh.singh@example.com",
+    "mobile_no": 8401234567
+  },
+  {
+    "name": "Kriti Saxena",
+    "age": 20,
+    "roll_no": "2026CH1054",
+    "email": "kriti.saxena@example.com",
+    "mobile_no": 7312345678
+  },
+  {
+    "name": "Sai Kumar",
+    "age": 21,
+    "roll_no": "2026CS5088",
+    "email": "sai.kumar@example.com",
+    "mobile_no": 6223456789
+  },
+  {
+    "name": "Tara Choudhury",
+    "age": 19,
+    "roll_no": "2026EC3076",
+    "email": "tara.choudhury@example.com",
+    "mobile_no": 9134567890
+  },
+  {
+    "name": "Manish Pandey",
+    "age": 20,
+    "roll_no": "2026ME2031",
+    "email": "manish.pandey@example.com",
+    "mobile_no": 8045678901
+  },
+  {
+    "name": "Pooja Hegde",
+    "age": 22,
+    "roll_no": "2026BT1009",
+    "email": "pooja.hegde@example.com",
+    "mobile_no": 7956789012
+  }
+]
